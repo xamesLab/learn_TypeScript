@@ -38,7 +38,7 @@ const WebSocketData:FC = () => {
                 backgroundColor: 'coral',
                 padding:'10px'
             }}>
-                <div style={{
+                <div className='priceLine' style={{
                     position: 'absolute',
                     width:'100%',
                     borderBottom: "1px dashed green",
