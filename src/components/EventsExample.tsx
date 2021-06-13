@@ -39,7 +39,7 @@ const EventsExample:FC = ()=>{
             <input value={value} onChange={changeHandler} type="text" placeholder='управляемый'/>
             <input ref={inputRef} type="text" placeholder='неуправляемый'/>
             <button onClick={clickHandler}>to console</button>
-            <div onDrag={dragHandler} draggable style={{background:'green', width:'100px', height:'100px', margin:'0.5rem' }}></div>
+            <div onDrag={dragHandler} draggable style={{background:'green', width:'100px', height:'100px', margin:'0.5rem' }}>draggable</div>
             <div 
                 onDrop={dropHandler}
                 onDragLeave={leaveHandler}
